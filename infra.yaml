@@ -1,0 +1,15 @@
+infrastructureDefinition:
+  name: ""
+  identifier: ""
+  description: ""
+  tags: {}
+  orgIdentifier: default
+  projectIdentifier: harshit
+  environmentRef: testcfd123
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.harnessngeksuseast1nonprodscdev01
+    namespace: <+variable.BUSINESS_UNIT>-<+env.name>
+    releaseName: <+service.name>
+  allowSimultaneousDeployments: false
