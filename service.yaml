@@ -1,0 +1,22 @@
+service:
+  name: ""
+  identifier: ""
+  orgIdentifier: default
+  projectIdentifier: test
+  serviceDefinition:
+    spec:
+      manifests:
+        - manifest:
+            identifier: m1
+            type: K8sManifest
+            spec:
+              store:
+                type: Github
+                spec:
+                  connectorRef: git_personal_repo
+                  gitFetchType: Branch
+                  paths:
+                    - /
+                  repoName: harshit-test-repository
+                  branch: main
+    type: Kubernetes
