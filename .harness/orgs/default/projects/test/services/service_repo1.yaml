@@ -16,7 +16,7 @@ service:
                   config:
                     type: ECR
                     spec:
-                      connectorRef: account.ECRConnectorForAutomationTest
+                      connectorRef: ECRConnectorForAutomationTest
                       region: us-east-1
                       registryId: ""
                   basePath: /
