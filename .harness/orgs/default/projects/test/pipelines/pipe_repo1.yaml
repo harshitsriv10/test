@@ -4,6 +4,7 @@ pipeline:
   tags: {}
   template:
     templateRef: pipe_temp_repo2
+    gitBranch: main
     versionLabel: "1"
     templateInputs:
       stages:
