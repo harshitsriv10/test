@@ -1,0 +1,5 @@
+service:
+  name: service_new_repo1
+  identifier: service_new_repo1
+  orgIdentifier: default
+  projectIdentifier: test
